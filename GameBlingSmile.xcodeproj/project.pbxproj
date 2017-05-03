@@ -188,6 +188,20 @@
 		05016F7E1EB03A6F006C7E2E /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05016ED01EB03A6E006C7E2E /* NSObject+YYModel.m */; };
 		05016F7F1EB03A6F006C7E2E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05016ED21EB03A6E006C7E2E /* YYClassInfo.m */; };
 		05016F9E1EB03C2F006C7E2E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016F9D1EB03C2F006C7E2E /* libsqlite3.tbd */; };
+		05016FA31EB069C0006C7E2E /* jcore-ios-1.1.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FA01EB069C0006C7E2E /* jcore-ios-1.1.3.a */; };
+		05016FA41EB069C0006C7E2E /* jpush-ios-3.0.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FA11EB069C0006C7E2E /* jpush-ios-3.0.5.a */; };
+		05016FA61EB069FF006C7E2E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FA51EB069FF006C7E2E /* CFNetwork.framework */; };
+		05016FA81EB06A08006C7E2E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FA71EB06A08006C7E2E /* CoreFoundation.framework */; };
+		05016FAA1EB06A0F006C7E2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FA91EB06A0F006C7E2E /* CoreTelephony.framework */; };
+		05016FAC1EB06A17006C7E2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FAB1EB06A17006C7E2E /* SystemConfiguration.framework */; };
+		05016FAE1EB06A1E006C7E2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FAD1EB06A1E006C7E2E /* CoreGraphics.framework */; };
+		05016FB01EB06A26006C7E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FAF1EB06A26006C7E2E /* Foundation.framework */; };
+		05016FB21EB06A2D006C7E2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FB11EB06A2D006C7E2E /* UIKit.framework */; };
+		05016FB41EB06A34006C7E2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FB31EB06A34006C7E2E /* Security.framework */; };
+		05016FB61EB06A3E006C7E2E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FB51EB06A3E006C7E2E /* libz.tbd */; };
+		05016FB81EB06A56006C7E2E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FB71EB06A56006C7E2E /* UserNotifications.framework */; };
+		05016FBA1EB06A5E006C7E2E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FB91EB06A5E006C7E2E /* libresolv.tbd */; };
+		05016FBE1EB0A22A006C7E2E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05016FBC1EB077BE006C7E2E /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -542,6 +556,22 @@
 		05016ED21EB03A6E006C7E2E /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		05016ED31EB03A6E006C7E2E /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		05016F9D1EB03C2F006C7E2E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		05016FA01EB069C0006C7E2E /* jcore-ios-1.1.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.3.a"; sourceTree = "<group>"; };
+		05016FA11EB069C0006C7E2E /* jpush-ios-3.0.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.5.a"; sourceTree = "<group>"; };
+		05016FA21EB069C0006C7E2E /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		05016FA51EB069FF006C7E2E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		05016FA71EB06A08006C7E2E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		05016FA91EB06A0F006C7E2E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		05016FAB1EB06A17006C7E2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		05016FAD1EB06A1E006C7E2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05016FAF1EB06A26006C7E2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05016FB11EB06A2D006C7E2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05016FB31EB06A34006C7E2E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		05016FB51EB06A3E006C7E2E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		05016FB71EB06A56006C7E2E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		05016FB91EB06A5E006C7E2E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		05016FBB1EB06A8A006C7E2E /* GameBlingSmile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameBlingSmile.entitlements; sourceTree = "<group>"; };
+		05016FBC1EB077BE006C7E2E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -549,8 +579,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05016FBE1EB0A22A006C7E2E /* AdSupport.framework in Frameworks */,
+				05016FBA1EB06A5E006C7E2E /* libresolv.tbd in Frameworks */,
+				05016FB81EB06A56006C7E2E /* UserNotifications.framework in Frameworks */,
+				05016FB61EB06A3E006C7E2E /* libz.tbd in Frameworks */,
+				05016FB41EB06A34006C7E2E /* Security.framework in Frameworks */,
+				05016FB21EB06A2D006C7E2E /* UIKit.framework in Frameworks */,
+				05016FB01EB06A26006C7E2E /* Foundation.framework in Frameworks */,
+				05016FAE1EB06A1E006C7E2E /* CoreGraphics.framework in Frameworks */,
+				05016FAC1EB06A17006C7E2E /* SystemConfiguration.framework in Frameworks */,
+				05016FAA1EB06A0F006C7E2E /* CoreTelephony.framework in Frameworks */,
+				05016FA81EB06A08006C7E2E /* CoreFoundation.framework in Frameworks */,
+				05016FA61EB069FF006C7E2E /* CFNetwork.framework in Frameworks */,
 				05016F9E1EB03C2F006C7E2E /* libsqlite3.tbd in Frameworks */,
+				05016FA31EB069C0006C7E2E /* jcore-ios-1.1.3.a in Frameworks */,
 				05016F611EB03A6E006C7E2E /* libWeChatSDK.a in Frameworks */,
+				05016FA41EB069C0006C7E2E /* jpush-ios-3.0.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +640,7 @@
 		05016D1D1EB0392E006C7E2E /* GameBlingSmile */ = {
 			isa = PBXGroup;
 			children = (
+				05016FBB1EB06A8A006C7E2E /* GameBlingSmile.entitlements */,
 				05016D5F1EB03A6E006C7E2E /* Classes */,
 				05016D7F1EB03A6E006C7E2E /* General */,
 				05016D861EB03A6E006C7E2E /* Helper */,
@@ -948,6 +993,7 @@
 		05016DE81EB03A6E006C7E2E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				05016F9F1EB069C0006C7E2E /* JPushLib */,
 				05016DE91EB03A6E006C7E2E /* AFNetworking */,
 				05016E171EB03A6E006C7E2E /* Base64 */,
 				05016E1D1EB03A6E006C7E2E /* CoreLabel */,
@@ -1386,9 +1432,31 @@
 		05016F9C1EB03C2E006C7E2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05016FBC1EB077BE006C7E2E /* AdSupport.framework */,
+				05016FB91EB06A5E006C7E2E /* libresolv.tbd */,
+				05016FB71EB06A56006C7E2E /* UserNotifications.framework */,
+				05016FB51EB06A3E006C7E2E /* libz.tbd */,
+				05016FB31EB06A34006C7E2E /* Security.framework */,
+				05016FB11EB06A2D006C7E2E /* UIKit.framework */,
+				05016FAF1EB06A26006C7E2E /* Foundation.framework */,
+				05016FAD1EB06A1E006C7E2E /* CoreGraphics.framework */,
+				05016FAB1EB06A17006C7E2E /* SystemConfiguration.framework */,
+				05016FA91EB06A0F006C7E2E /* CoreTelephony.framework */,
+				05016FA71EB06A08006C7E2E /* CoreFoundation.framework */,
+				05016FA51EB069FF006C7E2E /* CFNetwork.framework */,
 				05016F9D1EB03C2F006C7E2E /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05016F9F1EB069C0006C7E2E /* JPushLib */ = {
+			isa = PBXGroup;
+			children = (
+				05016FA01EB069C0006C7E2E /* jcore-ios-1.1.3.a */,
+				05016FA11EB069C0006C7E2E /* jpush-ios-3.0.5.a */,
+				05016FA21EB069C0006C7E2E /* JPUSHService.h */,
+			);
+			path = JPushLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1459,8 +1527,16 @@
 				TargetAttributes = {
 					05016D1A1EB0392E006C7E2E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = V3VWCC65R7;
+						DevelopmentTeam = TJ83QZ77Y8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					05016D331EB0392E006C7E2E = {
 						CreatedOnToolsVersion = 8.1;
@@ -1831,7 +1907,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V3VWCC65R7;
+				CODE_SIGN_ENTITLEMENTS = GameBlingSmile/GameBlingSmile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TJ83QZ77Y8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GameBlingSmile/General/GBSPrefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1839,9 +1918,17 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GameBlingSmile/Vendor/SDKExport",
+					"$(PROJECT_DIR)/GameBlingSmile/Vendor/JPushLib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dlwxDaviD.GameBlingSmile;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlwxDaviD.GameBlingSmile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1849,7 +1936,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V3VWCC65R7;
+				CODE_SIGN_ENTITLEMENTS = GameBlingSmile/GameBlingSmile.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TJ83QZ77Y8;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GameBlingSmile/General/GBSPrefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1857,9 +1947,17 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GameBlingSmile/Vendor/SDKExport",
+					"$(PROJECT_DIR)/GameBlingSmile/Vendor/JPushLib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dlwxDaviD.GameBlingSmile;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlwxDaviD.GameBlingSmile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
